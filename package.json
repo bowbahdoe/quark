@@ -24,6 +24,7 @@
     "typescript": "^2.6.1"
   },
   "dependencies": {
+    "@mccue/exceptions": "^1.0.1",
     "@types/react": "^15.6.6",
     "immutable": "^3.8.2",
     "lodash": "^4.17.4",
