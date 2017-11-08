@@ -1,0 +1,32 @@
+{
+  "name": "@mccue/quark",
+  "version": "1.0.0",
+  "description": "Functional State Management System",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bowbahdoe/quark"
+  },
+  "main": "dist/exceptions.js",
+  "scripts": {
+    "build": "tsc --rootDir src --outDir dist",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "python",
+    "error handling",
+    "exceptions"
+  ],
+  "author": "Ethan McCue",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "@types/react": "^15.6.6",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.4",
+    "react": "^16.0.0"
+  }
+}
