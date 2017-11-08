@@ -6,21 +6,19 @@
     "type": "git",
     "url": "https://github.com/bowbahdoe/quark"
   },
-  "main": "dist/exceptions.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc --rootDir src --outDir dist",
     "prepare": "npm run build"
   },
   "keywords": [
-    "python",
-    "error handling",
-    "exceptions"
+    "state",
+    "functional",
+    "react"
   ],
   "author": "Ethan McCue",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
     "typescript": "^2.6.1"
   },
   "dependencies": {
