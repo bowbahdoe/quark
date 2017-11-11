@@ -28,14 +28,15 @@ reg_event('increment', state => state + 1)
 
 // In your view
 
-// All components using the global store must inherit from React.component
-// So pure functions will not work
+// All components using the global store must
+// inherit from React.component. So pure functions
+// will not work
 class ExampleComponent extends Component {
   render() {
     return (
       <div>
         // Always Pass a reference to the subscribing component
-        <p> Count squared: {subscribe(this, 'squared')} </p>
+        <p> Count: {subscribe(this, 'count')} </p>
         <p> Count squared: {subscribe(this, 'squared')} </p>
         <button onClick={() => dispatch('increment')}> increment </button>
       </div>
