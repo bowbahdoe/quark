@@ -9,7 +9,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --sourceMap true --rootDir src --outDir dist",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "mocha"
   },
   "keywords": [
     "state",
@@ -19,6 +20,8 @@
   "author": "Ethan McCue",
   "license": "ISC",
   "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^4.0.1",
     "typescript": "^2.6.1"
   },
   "dependencies": {
